@@ -7,44 +7,53 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-<div id="left-nav" style="font-family: Arial, Helvetica, sans-serif;">
 
     <table style="width: 100%;">
 
         <th><img src="assets/images/David_Castro_Castaneda.png" alt="David Castro Castaneda"></th>
 
-        <th><a href="index.html"></a>About</th>
+        <th><a href="index.html">About</a></th>
 
-        <th><a href="portfolio.html"></a>Portfolio</th>
+        <th><a href="portfolio.html">Portfolio</a></th>
 
-        <th><a href="contact.html"></a>Contact</th>
+        <th><a href="contact.html">Contact</a></th>
 
     </table>
 
-</div>
 <hr>
-<div class="wrapper">
 
     <div class="contentbox">
         <div>
-            <h2>Contact</h2>
+            <h2>Contact Me</h2>
         </div>
 
         <hr>
 
         <div>
-            
+        <!-- put contact info here -->
+
+        <div class="container">
+            <form action="action_page.php">
+          
+              <label for="fname">Name</label>
+              <input type="text" id="fname" name="name" placeholder="Jane Smith">
+          
+              <label for="lemail">Email</label>
+              <input type="text" id="lemail" name="email" placeholder="Example@gmail.com">
+          
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
 
         </div>
-    
-            
-    </div>
-
-    <div class="push" ></div>
-
+        
 </div>
 
-    <footer class="footer" >Copyright&copy;</footer>
+    <footer>Copyright</footer>
 
 </body>
 </html>
